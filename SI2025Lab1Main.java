@@ -132,11 +132,13 @@ public class SI2025Lab1Main {
         // Remove task by name
         System.out.println("\nAfter removing 'Buy groceries':");
         manager.removeTask("Buy groceries");
-        manager.printTasks();
+       
 
         // Sort tasks by priority
+
         System.out.println("\nTasks sorted by priority (HIGH first):");
         manager.sortTasksByPriority();
         manager.printTasks();
+        
     }
 }
