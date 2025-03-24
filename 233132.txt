@@ -1,0 +1,27 @@
+12. Барање
+Искористени команди: 
+git fetch origin 
+git checkout 1-remove-a-task-by-name
+
+git fetch origin
+git checkout 3-list-tasks-sorted-by-name
+
+git fetch origin
+git checkout 8-mark-a-task-as-completed-by-name
+
+-git fetch origin командата ги повлекува најновите промени од оддалечениот репозиториум (во случајот GitHub), но не ги спојува со мојата локална гранка. 
+
+-git checkout командата овозможува префрлање на друга гранка во мојот локален репозиториум. 
+
+<<<<<<< HEAD
+13-18 Барање
+Искористени команди:
+git checkout <branch_name> - за да се префрлам на тековната гранка
+git add SI2025Lab1Main.java
+git commit -m "..."
+git push origin <branch_name> - да ги испратам промените до оддалечениот репозиториум
+
+истите команди се повторуваат за сите три гранки
+
+=======
+>>>>>>> 8-mark-a-task-as-completed-by-name

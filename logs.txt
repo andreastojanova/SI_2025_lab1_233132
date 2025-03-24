@@ -1,0 +1,14 @@
+* 5c26251 Sort tasks by priority
+*   8f3d908 Merge pull request #11 from andreastojanova/2-find-all-completed-tasks
+|\  
+| * e97a418 Find all completed tasks
+* |   62d80b9 Merge pull request #10 from andreastojanova/1-remove-a-task-by-name
+|\ \  
+| |/  
+|/|   
+| * 976c533 Remove task by name
+|/  
+| * 1e207be Sort tasks by priority
+|/  
+* 73c8e5f Add starter code
+* e8bc5d6 Initial commit
