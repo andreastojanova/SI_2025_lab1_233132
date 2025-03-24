@@ -65,6 +65,7 @@ class TaskManager {
     // 1. Remove a task by name
     public void removeTask(String name) {
         // TODO: Implement removal logic
+        tasks.removeIf(task -> task.getName().equalsIgnoreCase(name));
     }
 
     // 2. Find all completed tasks
@@ -121,6 +122,11 @@ public class SI2025Lab1Main {
 
         // MISSING: Calls to the new methods that will be implemented
 
+        //remove task by name
+        System.out.println("\nAfter removing 'Buy groceries':");
+        manager.removeTask("Buy groceries");
         manager.printTasks();
+
+       
     }
 }
